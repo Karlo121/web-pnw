@@ -1,12 +1,15 @@
-import React from "react";
-import logo from "./logo.svg";
+import Header from "./Components/Header";
+import Predavanje from "./Components/Predavanje";
+import { StyledPage } from "./Styles/Global.style";
+
 import "./App.css";
 
 function App() {
   return (
-    <div>
-      <p style={{ backgroundColor: "red" }}>yo</p>
-    </div>
+    <StyledPage>
+      <Header />
+      <Predavanje />
+    </StyledPage>
   );
 }
 
