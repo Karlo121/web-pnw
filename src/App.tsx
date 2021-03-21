@@ -1,15 +1,16 @@
 import Header from "./Components/Header";
 import Predavanje from "./Components/Predavanje";
-import { StyledPage } from "./Styles/Global.style";
+import { linkoviPredavanja } from "./Data/Links";
+import { pdfovi } from "./Data/Pdf";
 
 import "./App.css";
 
 function App() {
   return (
-    <StyledPage>
+    <>
       <Header />
-      <Predavanje />
-    </StyledPage>
+      <Predavanje broj={1} link={linkoviPredavanja.link1} pdf={pdfovi.src1} />
+    </>
   );
 }
 
