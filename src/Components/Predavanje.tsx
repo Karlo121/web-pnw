@@ -1,9 +1,9 @@
 import { StyledPredavanje } from "../Styles/Predavanje.style";
 
 interface Predavanje {
-  broj: number;
-  link: string;
-  pdf: string;
+  broj?: number;
+  link?: string;
+  pdf?: string;
 }
 
 const Predavanje = (props: Predavanje) => {

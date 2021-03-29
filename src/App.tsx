@@ -1,16 +1,17 @@
-import Header from "./Components/Header";
-import Predavanje from "./Components/Predavanje";
-import { linkoviPredavanja } from "./Data/Links";
-import { pdfovi } from "./Data/Pdf";
+import Home from "./Components/Home";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import VjezbaJedan from "./Components/Vjezbe/VjezbaJedan";
 
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Predavanje broj={1} link={linkoviPredavanja.link1} pdf={pdfovi.src1} />
-    </>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/vjezba01" exact component={VjezbaJedan} />
+      </Switch>
+    </Router>
   );
 }
 
