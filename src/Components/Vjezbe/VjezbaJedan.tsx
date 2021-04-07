@@ -196,7 +196,9 @@ t = (ANAKL x 60) / FN(BRZOFF)		[min]
     izvedenu iz funkcije vjerojatnosti sa slike 44.Nakon faze dorade masteri su spremni za individualizaciju 
 koja će biti prikazana drugim modelom nezavisno od ovog.`}</pre>
       </StyledVjezba>
-      <Link to="/">Home</Link>
+      <Link to="/">
+        <h1>Home</h1>
+      </Link>
     </div>
   );
 };

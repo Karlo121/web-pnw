@@ -10,6 +10,16 @@ const Vjezba = () => {
         {" "}
         <p style={{ marginBottom: 30 }}>Link</p>
       </Link>
+      <h1> 3. Predavanje </h1>
+      <Link to="/vjezba02">
+        {" "}
+        <p style={{ marginBottom: 30 }}>Link</p>
+      </Link>
+      <h1> 3. Predavanje drugi dio </h1>
+      <Link to="/vjezba02CSS">
+        {" "}
+        <p style={{ marginBottom: 30 }}>Link</p>
+      </Link>
     </StyledPredavanje>
   );
 };
