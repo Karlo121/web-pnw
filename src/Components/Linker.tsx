@@ -31,6 +31,13 @@ const Vjezba = () => {
           <p style={{ marginBottom: 30 }}>Link</p>
         </Link>
       </StyledPredavanje>
+      <StyledPredavanje>
+        <h1> 5. Predavanje</h1>
+        <Link to="/vjezba05">
+          {" "}
+          <p style={{ marginBottom: 30 }}>Link</p>
+        </Link>
+      </StyledPredavanje>
     </div>
   );
 };

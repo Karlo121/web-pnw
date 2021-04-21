@@ -9,6 +9,7 @@ import formaDva from "./Components/Forme/formaDva";
 import formaTri from "./Components/Forme/formaTri";
 import formaCetiri from "./Components/Forme/formaCetiri";
 import formaPet from "./Components/Forme/formaPet";
+import vjezbaPet from "./Components/Vjezbe/VjezbaPet";
 
 import "./App.css";
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/forma03" exact component={formaTri} />
         <Route path="/forma04" exact component={formaCetiri} />
         <Route path="/forma05" exact component={formaPet} />
+        <Route path="/vjezba05" exact component={vjezbaPet} />
       </Switch>
     </Router>
   );
